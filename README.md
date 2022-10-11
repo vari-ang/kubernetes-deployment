@@ -17,7 +17,7 @@ Start a local Kubernetes cluster
 `minikube start`
 
 Deploy k8 deployment config to k8 cluster
-`kubectl apply -f k8/deployment.yaml`
+`kubectl apply -f k8/<deployment>.yaml`
 
 See the created pods
 `kubectl get pods`
