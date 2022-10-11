@@ -1,6 +1,6 @@
-# Spring Boot REST API with PostgreSQL
+# Spring Boot REST API with PostgreSQL Deployment with Kubernetes and Minikube
 
-REST API CRUD app and PostgreSQL which are provisioned and deployed locally on Kubernetes cluster
+REST API CRUD app and PostgreSQL which are provisioned and deployed using Kubernetes locally on Minikube
 
 Disclaimer: This project is originally taken from [hendisantika/spring-boot-rest-api-postgresql](https://github.com/hendisantika/spring-boot-rest-api-postgresql).
 
@@ -11,7 +11,21 @@ Disclaimer: This project is originally taken from [hendisantika/spring-boot-rest
 
 ## How to use
 
-TBD
+Run `kubectl config current-context` and make sure that your current context is `minikube`
+
+Start a local Kubernetes cluster
+`minikube start`
+
+Deploy k8 deployment config to k8 cluster
+`kubectl apply -f k8/deployment.yaml`
+
+See the created pods
+`kubectl get pods`
+
+See pod detail
+`kubectl describe pods <pod name>`
+
+---
 
 #### Plain REST API CRUD with Spring Boot and PostgreSQL.
 
