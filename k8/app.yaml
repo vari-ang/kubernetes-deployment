@@ -21,9 +21,9 @@ spec:
         - containerPort: 8080
         envFrom:
         - configMapRef:
-          name: app-config
+            name: app-config
         - secretRef:
-          name: app-secret
+            name: app-secret
 ---
 apiVersion: v1
 kind: Service
