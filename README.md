@@ -16,8 +16,8 @@ Run `kubectl config current-context` and make sure that your current context is 
 Start a local Kubernetes cluster
 `minikube start`
 
-Deploy k8 deployment config to k8 cluster
-`kubectl apply -f k8/<deployment>.yaml`
+Deploy k8 all configs to k8 cluster  
+`kubectl apply -f k8/<config>.yaml`
 
 See the created pods
 `kubectl get pods`
