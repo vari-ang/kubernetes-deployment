@@ -4,5 +4,4 @@ metadata:
   name: postgres-config
 data:
   POSTGRES_DB: postgresql
-  POSTGRES_USER: admin
   
