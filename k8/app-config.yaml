@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+data:
+  BOOKS_API_DB_HOST: postgresdb
+  BOOKS_API_DB_PORT: "5432"
+  BOOKS_API_DB_NAME: booksapidb
+  

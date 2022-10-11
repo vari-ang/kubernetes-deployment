@@ -15,7 +15,12 @@ spec:
         app: books-api
     spec:
       containers:
-      - name: nginx
+      - name: booksapi
         image: vari8/booksapi:latest
         ports:
         - containerPort: 8080
+        envFrom:
+        - configMapRef:
+          name: app-config
+        - secretRef:
+          name: app-secret
