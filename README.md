@@ -2,7 +2,7 @@
 
 REST API CRUD app and PostgreSQL which are provisioned and deployed using Kubernetes locally on Minikube
 
-Disclaimer: This project is originally taken from [hendisantika/spring-boot-rest-api-postgresql](https://github.com/hendisantika/spring-boot-rest-api-postgresql).
+Disclaimer: The application used in this repo is originally taken from [hendisantika/spring-boot-rest-api-postgresql](https://github.com/hendisantika/spring-boot-rest-api-postgresql).
 
 ## Prerequisite
 
